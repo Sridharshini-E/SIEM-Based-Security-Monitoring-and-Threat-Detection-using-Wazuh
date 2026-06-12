@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment and configuration of a Wazuh-based Security Operations Center (SOC) monitoring environment. The lab was built using Ubuntu and Windows virtual machines to simulate real-world endpoint monitoring, security event analysis, and alert investigation.
+This project demonstrates the deployment and configuration of a Wazuh SIEM environment for security monitoring, threat detection, failed login analysis, and file integrity monitoring. The lab was built using Ubuntu and Windows virtual machines to simulate real-world endpoint monitoring, security event analysis, and alert investigation.
 
 ## Architecture
 
