@@ -110,6 +110,29 @@ SIEM-Based Security Monitoring and Threat Detection using Wazuh/
 ├── Screenshots/
 └── Reports/
 ```
+## Analyst Response Playbooks
+
+### Failed Login Detection (Rule ID 60122)
+
+When a failed login alert is detected, the following investigation steps should be performed:
+
+1. Verify the affected endpoint, username, and event timestamp.
+2. Review the source IP address associated with the failed login attempt.
+3. Check for multiple failed login attempts that may indicate brute-force activity.
+4. Investigate whether a successful login occurred shortly after the failed attempts.
+5. Correlate related events from the same source IP and endpoint.
+6. Escalate the incident if suspicious activity is confirmed and recommend account review or password reset.
+
+### File Integrity Monitoring (FIM)
+
+When a file integrity alert is detected, the following investigation steps should be performed:
+
+1. Identify the file that was created, modified, or deleted.
+2. Verify whether the activity was authorized or part of planned administrative changes.
+3. Review the user account responsible for the file activity.
+4. Check for additional modifications within the monitored directory.
+5. Validate file hashes and investigate unexpected changes.
+6. Escalate the incident if unauthorized or suspicious file activity is detected.
 
 ## Outcome
 
